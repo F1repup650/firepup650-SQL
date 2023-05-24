@@ -1,9 +1,9 @@
-# Firepup650
-Package containing various shorthand things I use, and a few imports I almost always use
+# FPSQL
+An easy to use SQLite package
 #### Change log:
-###### v.1.0.2:
-Random shorthand (litterally)
 ###### v.1.0.1:
-Added animated typing function, sleep shorthand
+Actual release
 ###### v.1.0.0:
 Initial Release!
+###### v.1.0.26:
+Mistake release :facepalm:
