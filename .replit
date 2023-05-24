@@ -19,6 +19,7 @@ PYTHONPATH = "$PYTHONHOME/lib/python3.8:${VIRTUAL_ENV}/lib/python3.8/site-packag
 REPLIT_POETRY_PYPI_REPOSITORY = "https://package-proxy.replit.com/pypi/"
 MPLBACKEND = "TkAgg"
 POETRY_CACHE_DIR = "${HOME}/${REPL_SLUG}/.cache/pypoetry"
+GIT_ASKPASS = "./askpass.sh"
 
 # Enable unit tests. This is only supported for a few languages.
 [unitTest]
