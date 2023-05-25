@@ -1,6 +1,8 @@
 # FPSQL
 An easy to use SQLite package
 #### Change log:
+###### v.1.0.2:
+Fix internal vars
 ###### v.1.0.1:
 Actual release
 ###### v.1.0.0:
