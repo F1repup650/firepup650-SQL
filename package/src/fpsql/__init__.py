@@ -13,8 +13,8 @@ def alias(Function):
     return decorator
 
 
-__VERSION__ = "1.0.26"
-__NEW__ = "Adds `remove_prefix` and `remove_suffix`, name mangles internal variables in `sql`, fixes a bug in `console.warn`, adds `__VERSION__`, `__NEW__`, and `__LICENSE__`, adds many aliases for interactive help."
+__VERSION__ = "1.0.2"
+__NEW__ = "Fix internal vars"
 __LICENSE__ = "MIT"
 
 
@@ -144,7 +144,7 @@ class sql:
             )
             self.__con.commit()
 
-    def delete_all(self) -> None:
+    def deleteAll(self) -> None:
         """# Function: sql.delete_all
           Deletes all keys from the table
         # Inputs:
