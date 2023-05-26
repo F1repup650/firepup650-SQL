@@ -1,6 +1,8 @@
 # FPSQL
 An easy to use SQLite package
 #### Change log:
+###### v.1.0.4:
+Fix all mypy stub issues
 ###### v.1.0.3:
 Provide a mypy stub file
 ###### v.1.0.2:

@@ -1,4 +1,5 @@
 """Firepup650's SQL Package"""
+from typing import Any
 import sqlite3, ast, pydoc
 
 
@@ -72,14 +73,14 @@ class sql:
           None"""
         self.__table = tableName
 
-    def get(self, name: str) -> object or None:
+    def get(self, name: str) -> Any:
         """# Function: sql.get
           Gets the value of a key
         # Inputs:
           name: str - The name of the key to retrieve
 
         # Returns:
-          object or None - If the key exists, return it's value, otherwise, return `None`
+          Any - If the key exists, return it's value (casted), otherwise, return `None`
 
         # Raises:
           AttributeError - If the table is unset"""
