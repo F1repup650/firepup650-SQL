@@ -14,8 +14,8 @@ def alias(Function):
     return decorator
 
 
-__VERSION__ = "1.0.2"
-__NEW__ = "Fix internal vars"
+__VERSION__ = "1.0.5"
+__NEW__ = "Double check mypy problems and resolve them"
 __LICENSE__ = "MIT"
 
 
@@ -173,6 +173,6 @@ class sql:
         # Raises:
           None"""
         self.__con.close()
-        self.__con = None
-        self.__db = None
-        self.__table = None
+        self.__con = None  # type: ignore[assignment]
+        self.__db = ""
+        self.__table = ""
