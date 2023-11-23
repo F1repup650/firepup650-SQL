@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fpsql source"
+name = "fpsql-source"
 version = "0.1.0"
 description = "Source"
 authors = ["Firepup Sixfifty <you@example.com>"]
