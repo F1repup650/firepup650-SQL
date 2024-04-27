@@ -1,4 +1,5 @@
 """Firepup650's SQL Package"""
+
 from typing import Any
 import sqlite3, ast, pydoc
 
