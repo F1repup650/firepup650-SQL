@@ -6,7 +6,7 @@ authors = ["Firepup Sixfifty <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10.11"
-black = "^23.3.0"
+black = "^24.3.0"
 
 [tool.black]
 
